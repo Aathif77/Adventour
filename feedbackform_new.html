@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <HEAD>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <TITLE>Feedback Form</TITLE>
+    <link rel="stylesheet" href="tourism1.css">
+
+  </HEAD>
+  <body>
+    <section class="Feedback">
+    <div class="nav-bar">
+
+      <ul class="menu">
+          <li><a class="logo" href = "tourism1.html"><img src="Picture1.png" alt="Picture1" width="100" height="90"></a></li>
+          <li><a href="tourism1.html">Home</a></li>
+          <li><a href="shop.html">Products</a></li>
+          <li><a href="Quiz.html">Quiz</a></li>
+          <li><a href="sitemap1.html">Site Map</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Student_Details.html">About Us</a></li>
+          <li><a href="feedbackform_new.html">Feedback</a></li>
+      </ul>
+    </div><BR>
+
+    <h1 class="head" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feedback Form</h1><BR><BR>
+      <form method="post" action="mailto:sanduladissanayaka@gmail.com" enctype="text/plain" style="color: aliceblue;" id="my-form">
+        
+      <div>
+        <div class="star-bar" >
+        <input type="radio" name="star" id="star1" checked="checked">
+        <label for="star1">
+          <img src="in-love.png" alt="emoji1" width="60" height="50">
+          <a style="color: aliceblue;" class="loved_it" id="loved_it">Loved It</a>
+        </label>
+        <input type="radio" name="star" id="star2">
+        <label for="star2">
+          <img src="happy.png" alt="emoji2" width="60" height="50">
+          <a style="color: aliceblue;" class="liked_it" id="liked_it">Liked It</a>
+        </label>
+        <input type="radio" name="star" id="star3">
+        <label for="star3">
+          <img src="sad.png" alt="emoji3" width="60" height="50">
+          <a style="color: aliceblue;" class="disliked_it" id="disliked_it">Disliked It</a>
+        </label>
+        <input type="radio" name="star" id="star4">
+        <label for="star4">
+          <img src="sick.png" alt="emoji4" width="60" height="50">
+          <a style="color: aliceblue;" class="hated_it" id="hated_it">Hated It</a>
+        </label>
+        
+        <h2 class="msg">Did you like our service?</h2>
+        
+        </div> 
+        <br><br><br>
+        <br><br><br><br><br>
+
+
+
+       
+        &nbsp;&nbsp;&nbsp;&nbsp;Full Name :  <input class="name" type="text" id="name" name="name" placeholder="Please enter your full name" style="background-color: #e2b57a;" required > 
+        <br><br><br>
+        &nbsp;&nbsp;&nbsp;&nbsp; Country : <input class="country" type="text" id="country" name="country" placeholder="Please enter your country" style="background-color: #e2b57a;" required >
+        <BR><BR><BR>
+          &nbsp;&nbsp;&nbsp;&nbsp; E-mail : <input class="email" type="email" id="email" name="email" placeholder="Please enter your E-mail" style="background-color: #e2b57a;" required >
+        <BR><BR><BR>
+        
+        &nbsp; &nbsp; &nbsp;Comments : 
+          <br> <br>
+          &nbsp;&nbsp;&nbsp;&nbsp; <textarea rows="7" cols="80" name="commentfield" class="comment" id="comment" style="background-color: #e2b57a;" required>
+            </textarea><BR><BR>
+              &nbsp;&nbsp;&nbsp;&nbsp; 
+              <input type="submit" value="Send Feedback" style="background-color: #e2b57a;" onclick="validateForm()"><a href="mailto:sanduladissanayaka@gmail.com"></a>&nbsp;&nbsp;
+        <input type="reset" value="Reset" style="background-color: #e2b57a;">
+        <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+      </div>
+    </form>
+    <script src="feedbackform_new.js"></script>
+
+
+    <!--===========page editor=================-->
+
+    <div class="editor_page">
+      <a  class="copyright" href="student2.html">
+      &#169;The Editor</a> 
+    </div>
+    </section>
+</body>
+</html>
+
